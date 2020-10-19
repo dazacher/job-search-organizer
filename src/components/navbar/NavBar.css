@@ -1,0 +1,52 @@
+/* set the background color of the navbar */
+
+
+.navbar {
+    background-color: #b60040;
+    color:#001CA5;
+    /* padding-right: 120px;
+    width: 100%; */
+}
+
+.navbar2 {
+    background-color: #8000AE;
+}
+
+.jobSearch {
+    text-align: left;
+}
+
+.nav-link {
+    color:#FFC107!important; 
+    font-weight: bolder;
+    font-size: 24px;
+    /* padding-top: 200px!important; */
+}
+
+.navbar-brand {
+    margin:0px;
+    padding:0px;
+}
+Image {
+    padding: 0px;
+    margin: 0px;
+}
+.inline {
+    display: block;
+    text-align: left;
+    color:#001CA5!important;
+}
+.navbar-title {
+    padding-left: 5px;
+    color:#001CA5!important;
+    font-weight: bold;
+    font-size: xx-large;
+    background-color: #b60040;
+    font-family: 'Kalam', cursive;
+}
+
+/* Media query to make navbar cover entire width of page on iPhone 5/SE */
+@media (max-width: 565px) {
+    .navbar-brand  {font-size: x-large;}
+    /* .navbar {width: 100%} */
+}
