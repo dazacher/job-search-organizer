@@ -4,8 +4,6 @@
 .navbar {
     background-color: #b60040;
     color:#001CA5;
-    /* padding-right: 120px;
-    width: 100%; */
 }
 
 .navbar2 {
@@ -20,7 +18,6 @@
     color:#FFC107!important; 
     font-weight: bolder;
     font-size: 24px;
-    /* padding-top: 200px!important; */
 }
 
 .navbar-brand {
@@ -50,3 +47,10 @@ Image {
     .navbar-brand  {font-size: x-large;}
     /* .navbar {width: 100%} */
 }
+
+/* Media query to mage image on index page align properly at diferent sizes */
+@media all and (max-width: 568px) {
+    .img-responsive {display: block; margin: auto; padding: auto;}
+    .jobSearch {display: block; margin: auto; padding: auto; text-align: center;}
+}
+

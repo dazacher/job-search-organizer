@@ -44,16 +44,19 @@ const NavbarRx = () => {
         </Navbar.Brand>
       </NavLink>
       <div className="jobSearch">
+        <Row>
+    <Col  xs={12} md={9} lg={3}>
       <Image
                 src={JobSearchImage}
                 width="225px"
                 height="200px"
-                className="img-responsive mx-auto"
-                roundedCircle
+                className="img-responsive2"
                 id="jobsearch"
                 alt="User Image"
               />
       
+      </Col>
+      </Row>
       </div>
     </Navbar >
     <Navbar className="navbar2">
