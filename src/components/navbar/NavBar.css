@@ -1,17 +1,46 @@
 /* set the background color of the navbar */
+Col {
+    padding: 0px;
+}
+Row {
+    padding: 0px;
+}
 
+div {
+    padding: 0px;
+}
+.img-responsive2 {
+    padding-top:0px;
+}
 
+.siteHeader {
+    background-color: #b60040;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-right: 0px;
+}
+
+.image2 {
+    float: right;
+    display: inline-block;
+}
+
+.row1 {
+    height: 25px
+}
+/*  */
 .navbar {
     background-color: #b60040;
     color:#001CA5;
 }
 
-.navbar2 {
+.navbar {
     background-color: #8000AE;
 }
 
 .jobSearch {
     text-align: left;
+    display: block;
 }
 
 .nav-link {
@@ -24,11 +53,11 @@
     margin:0px;
     padding:0px;
 }
-Image {
+/* Image {
     padding: 0px;
     margin: 0px;
-}
-.inline {
+} */
+h5, h3 {
     display: block;
     text-align: left;
     color:#001CA5!important;
@@ -51,6 +80,7 @@ Image {
 /* Media query to mage image on index page align properly at diferent sizes */
 @media all and (max-width: 568px) {
     .img-responsive {display: block; margin: auto; padding: auto;}
-    .jobSearch {display: block; margin: auto; padding: auto; text-align: center;}
+    /* .img-responsive2 {display: block; margin: auto; padding: auto, 1000px, auto, 1000px;} */
+    .jobSearch {display: block; margin: auto; padding: auto, 100px, auto, 100px; text-align: center;}
 }
 
